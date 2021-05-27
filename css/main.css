@@ -1,0 +1,147 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px calc(50vw - 591.9px) 343px;
+  background: url(../img/top.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+body{
+  font:300 20px/1.2 'Open Sans', sans-serif;
+  color:#021725;
+}
+
+#menubtn{
+  display: flex;
+}
+#menubtn b{
+  color:#fff;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+} 
+.btn span{
+  height: 2px;
+  width: 18px;
+  display:block ;
+  background-color: #fff;
+  margin: 3px 0 0 4px;
+}
+
+
+
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 127px calc(50vw - 384.5px) 85px;
+}
+
+h1, h6 {
+  width: 100%;
+  text-align: center;
+}
+h6{
+  font-weight: 600;
+  font-size: 13px;
+  color:#d4af37; 
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: .7px;
+}
+h1{
+  font-weight:700;
+  font-size: 44px;
+  color: #021725;
+  margin-bottom: 79px;
+}
+
+.box{
+  height: 300px;
+  width: 300px;
+  padding: 32px;
+  letter-spacing: -.3px;
+  background: #d3b000;
+  color: #ffffff;
+}
+
+.box::before{
+  content: '';
+  width: 31px;
+  height: 3px;
+  display: block;
+  background: #ffffff;
+  margin-bottom: 41px;
+}
+
+.box img{
+  width: 100%;
+  height: auto;
+}
+
+.box.dark{
+  background: #333333;
+}
+
+.box.long{
+  background: #f9f9f9;
+  color: #323d43;
+  padding: 0;
+  width: calc(100% - 307px);
+  margin-left: 7px;
+}
+
+.box.long::before{
+  display: none;
+}
+
+.box:nth-of-type(3){
+  padding: 38px 40px 40px;
+  line-height: 32px;
+  letter-spacing: .1px;
+}
+.yellow, .dark{
+  font-weight: 400;
+  font-size: 25px;
+}
+
+button{
+  padding: 20px 57px;
+  border: 1px solid #000;
+  background-color: transparent;
+  margin-top: 77px;
+  font-size: 14px;
+  letter-spacing: .6px;
+}
+
+footer{
+  padding: 38px calc(50vw - 373.5px) 35px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
